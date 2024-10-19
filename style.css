@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+.main{
+    width: 100%;
+    background: url('homepagebgi.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 70px;
+    margin: auto;
+    background-color: rgb(17, 16, 17);
+    width: 100%;
+}
+.icon{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    height: 70px;
+    padding-left: 60px;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 92px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a.active{
+    color: rgb(221, 221, 13);
+}
+ul li a:hover{
+    color: rgb(221, 221, 13);
+}
+.content{
+    max-width: 400px;
+    height: 100vh;
+    margin-left: 100px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: Arial;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: white;
+    font-weight: bolder;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding-left: 10px;
+}
+.content h2{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 10px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: rgba(245, 200, 77, 0.801);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3 ease;
+}
+.cn:hover{
+    background-color: white;
+}
+.content span{
+    color: rgba(245, 200, 77, 0.801);
+    font-size: 40px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 170px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgba(245, 200, 77, 0.801);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: rgba(245, 200, 77, 0.801);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: white;
+    color: rgba(245, 200, 77, 0.801);
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.form .link a{
+    text-decoration: none;
+    color: rgba(245, 200, 77, 0.801);
+}
+
